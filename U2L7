@@ -1,0 +1,9 @@
+U2L7: a = [7, 1, 3, 5, 2, 4, 6]
+b = []
+
+for n in range(len(a)):
+    x = ((n-2) % 7)
+    b.append(a[x])
+   
+print("before:", a)
+print("after:", b)
